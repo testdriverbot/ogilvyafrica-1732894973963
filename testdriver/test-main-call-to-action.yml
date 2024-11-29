@@ -1,0 +1,24 @@
+version: 4.1.29
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Locate the main call to action button or link.
+    commands:
+      - command: hover-text
+        text: SEE WORK
+        description: main call to action button on the webpage
+        action: click
+  - prompt: Click on the main call to action.
+    commands:
+      - command: hover-text
+        text: Explore
+        description: main call to action button in the top right corner
+        action: click
+  - prompt: >-
+      Assert that the expected action or page opens.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the page title is "Ogilvy Africa - The Harmacy"
