@@ -1,0 +1,47 @@
+version: 4.1.29
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: hover-image
+        description: home icon in the browser toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: home icon in the browser toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: hover-image
+        description: home icon in the Google Chrome toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: hover-image
+        description: home icon in the Google Chrome toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: home icon in the Google Chrome toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: home icon in the Google Chrome toolbar
+        action: click
+  - prompt: Navigate to the homepage.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-image
+        description: home icon in the Google Chrome toolbar
+        action: click
